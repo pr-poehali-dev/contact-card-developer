@@ -1,12 +1,16 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import ContactCard from "@/components/ContactCard";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4 color-black">Добро пожаловать!</h1>
-        <p className="text-xl text-gray-600">тут будет отображаться ваш проект</p>
-      </div>
+    <div className="min-h-screen flex items-center justify-center bg-gray-50 p-4">
+      <ContactCard 
+        name="Иванов Иван"
+        position="Старший разработчик"
+        email="ivanov@example.com"
+        phone="+7 (123) 456-78-90"
+        address="г. Москва, ул. Примерная, д. 123"
+        avatarUrl="/placeholder.svg"
+      />
     </div>
   );
 };
