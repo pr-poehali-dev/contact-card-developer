@@ -2,7 +2,7 @@ import ContactCard from "@/components/ContactCard";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-50 p-4">
+    <div className="min-h-screen flex items-center justify-center bg-blue-600 p-4">
       <ContactCard 
         name="Иванов Иван"
         position="Старший разработчик"
